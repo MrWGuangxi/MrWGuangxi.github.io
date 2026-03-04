@@ -1,40 +1,110 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head id="pageheader">
+<head>
     <meta charset="UTF-8">
-    <title class = "tittle">说的道理</title>
-     <meta name="keywords" content="ccb">
-     <meta name="description" content="otto">
+    <title class="tittle">说的道理</title>
+    <meta name="keywords" content="ccb">
+    <meta name="description" content="otto">
     <style>
         body, html {
-            height: 100%;
+            min-height: 100%;
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 0;
             background-color: #0bfe30;
+            font-family: Arial, sans-serif;
         }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
         img {
-            max-width: 100vw;
-            max-height: 100vh;
-            box-shadow: contain;
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+        }
+        
+        nav {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        p {
+            margin: 20px 0;
+            text-align: center;
+            line-height: 1.6;
+        }
+        
+        ul {
+            width: 100%;
+            padding: 0;
+            margin: 20px 0;
+            list-style: none;
+            text-align: center;
+        }
+        
+        ul li {
+            margin: 10px 0;
+        }
+        
+        ul li a {
+            display: block;
+            padding: 8px;
+            background-color: rgba(0,0,0,0.1);
+            border-radius: 4px;
+            text-decoration: none;
+            color: #000;
+        }
+        
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            background-color: rgba(0,0,0,0.1);
+            word-wrap: break-word;
         }
     </style>
-    <nav class = "nav">滚木导航</nav>
 </head>
 <body>
-    <h1>说的道理</h1>
-    <img src="R.jfif" alt="说的道理">
-    <p id = "instruction">大家好啊，我是：说的道理~！<br>今天来点大家想看的东西啊<br>啊！没出生在我心~<br>哈姆~一呼相当饿~<br>啊你，也列拿fish<br>黑波比麻fishes<br>啊米浴说的道理！<br>啊wish，多多wish！<br>啊饿~好饿一食得当<br>啊嘛啊！波比是我爹<br>啊~喵内地手啊呵呵木有</p>
-<ul>
-	<li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的道理</a></li>
-	<li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的大道理</li>
-	<li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的超级道理</li>
-	<li><a href = "https://www.bilibili.com/video/BV1DB4y1W7TF?spm_id_from=333.788.recommend_more_video.4&trackid=web_related_0.router-related-2481894-htv68.1772448942241.415&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的道莉</a></li>
-</ul>
-<div class="row">
+    <nav class="nav">滚木导航</nav>
+    <div class="container">
+        <h1>说的道理</h1>
+        <img src="R.jfif" alt="说的道理">
+        <p id="instruction">
+            大家好啊，我是：说的道理~！<br>
+            今天来点大家想看的东西啊<br>
+            啊！没出生在我心~<br>
+            哈姆~一呼相当饿~<br>
+            啊你，也列拿fish<br>
+            黑波比麻fishes<br>
+            啊米浴说的道理！<br>
+            啊wish，多多wish！<br>
+            啊饿~好饿一食得当<br>
+            啊嘛啊！波比是我爹<br>
+            啊~喵内地手啊呵呵木有
+        </p>
+        <ul>
+            <li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的道理</a></li>
+            <li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的大道理</a></li>
+            <li><a href="https://www.bilibili.com/video/BV1JB4y1s7Dk/?spm_id_from=333.337.search-card.all.click&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的超级道理</a></li>
+            <li><a href="https://www.bilibili.com/video/BV1DB4y1W7TF?spm_id_from=333.788.recommend_more_video.4&trackid=web_related_0.router-related-2481894-htv68.1772448942241.415&vd_source=91040481f0692154872ca7d0a1a4e9a0">说的道莉</a></li>
+        </ul>
+    </div>
+    <footer id="pagefoot">道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理</footer>
 </body>
-<footer id="pagefoot">道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理道理</footer>
 </html>
-
-
